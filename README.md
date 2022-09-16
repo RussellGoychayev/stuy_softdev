@@ -1,2 +1,3 @@
-# stuy_softdev
-repo for softdev at stuyvesant
+# Goychayev Russell
+## Workshop
+### Softdev 2022-2023
