@@ -3,7 +3,7 @@ import random as random
  SoftDev
  K01 -- Krewes
  2022-09-22
- time spent:
+ time spent: 0.0 (did it all in class)
 
  DISCO: How to use rangRange. The value contained in each key value pair do not have to be of uniform length.
  Some ways to generate RNG:
