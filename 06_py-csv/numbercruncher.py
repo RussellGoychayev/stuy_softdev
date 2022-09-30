@@ -26,3 +26,11 @@ for x in dict:
         list.append(x)
 
 #print(random.choice(list))
+'''
+to test the weighted averages
+
+dict2 same key as dict
+[key] = 0
+1000 times
+[key] = value + 1
+'''
