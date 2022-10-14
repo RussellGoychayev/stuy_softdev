@@ -1,0 +1,59 @@
+Heading
+
+DISCO:
+
+
+QCC:
+Where does it say "Submit Query" in app.py or index.html (HTML thing) Why does it show  SUbmit query?
+
+
+Predictions:
+What is
+
+The print statements will output to the terminal, not the website 
+
+The html code will look like:
+Welcome (big)
+Enter (less big)
+username: (Area to input text)
+sub1 (Buttom to submit answer)
+
+<form action="/auth">
+      <input type="text" name="username">
+      <input type="submit" name="sub1">
+</form>
+
+The print statements will print:
+app -> "__main__"
+request -> ?
+request.args -> ?
+request.headers -> ?
+
+Outcomes:
+
+
+What was printed:
+***DIAG: this Flask obj ***
+<Flask 'app'>
+***DIAG: request obj ***
+<Request 'http://127.0.0.1:5000/' [GET]>
+***DIAG: request.args ***
+ImmutableMultiDict([])
+***DIAG: request.headers ***
+Host: 127.0.0.1:5000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:106.0) Gecko/20100101 Firefox/106.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Sec-Fetch-User: ?1
+
+
+To be done in 20 minuntes:
+Put method = thing after parameter afrgument inside the function call
+Set method to GET, POST and see what happens
+"Method not allowed" error: form was set up to receive POST, you give it GET for example
