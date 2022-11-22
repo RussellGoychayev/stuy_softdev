@@ -41,8 +41,9 @@ def login():
         else:
             return render_template("login.html")
     else:
-        return render_template("response.html", username = session  [eUser][0],
-        password = session[eUser][1])
+        print("AJSUDHIASUYDIASUGDIASUGDIYAS")
+        print(session[eUser])
+        return render_template("response.html", username = session[eUser][0], password = session[eUser][1])
 
 @app.route('/logout', methods=['GET', 'POST'])
 def logout():
